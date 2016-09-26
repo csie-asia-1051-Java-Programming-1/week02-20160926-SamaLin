@@ -19,7 +19,7 @@ public class hw01_105021058 {
 		int a1=scn.nextInt();
 		int a2=scn.nextInt();
 		int a3=scn.nextInt();
-		int data[]={50,10,1};
+		int data[]={50,5,1};
 		int data1[]=new int [3];
 		if(n-(a1*15+a2*20+a3*30)>=0){
 			n=n-(a1*15+a2*20+a3*30);
@@ -29,7 +29,7 @@ public class hw01_105021058 {
 			n=n%data[1];
 			
 			System.out.println("50元:"+data1[0]);
-			System.out.println("10元:"+data1[1]);
+			System.out.println("5元:"+data1[1]);
 			System.out.println("1元:"+n);
 		}else{
 		System.out.println("0");}
